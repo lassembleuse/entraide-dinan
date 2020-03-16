@@ -15,8 +15,8 @@ jobs:
 
     - name: Build Eleventy
       uses: TartanLlama/actions-eleventy@v1.1
-      with:
-        install_dependencies: true
+      # with:
+      #   install_dependencies: true
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
