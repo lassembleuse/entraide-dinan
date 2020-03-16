@@ -1,0 +1,32 @@
+---
+layout: "layouts/base.njk"
+---
+
+{% block content %}
+  <section class="section ">
+    <div class="container is-relative">
+      <h1 class="title is-1 has-text-centered">{{ title }}</h1>
+      {% if shortDescription %}
+        <div class="columns is-vcentered">
+          <div class="column is-8 is-offset-2">
+            <div class="content">
+              <p class="">{{ shortDescription | markdownify | safe }}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <div class="box">
+            <div class="content">
+              {{ content | safe }}
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+{% endblock %}
+
+
+

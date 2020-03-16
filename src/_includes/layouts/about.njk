@@ -1,0 +1,61 @@
+---
+layout: "layouts/single.njk"
+---
+
+{% block content %}
+
+  <section class="section about-section">
+    <div class="container">
+      <h2 class="title is-size-3">5 axes d’intervention pour concrétiser cette ambition</h2>
+      <div class="columns">
+        <div class="column content">
+          {%- for axe in axes -%}
+            <h3 class="title is-size-4">{{ axe.title }}</h3>
+            <p>{{ axe.shortDescription }}</p>
+            {# <ul>
+              {%- for bullet in axe.bullets -%}
+              <li>{{ bullet.content }}</li>
+              {%- endfor -%}
+            </ul> #}
+          {%- endfor -%}
+        </div>
+        <div class="column">
+          <img class="axes-image ll" src="{{ axePicture | url }}" alt="image axes de Des Hommes et des Arbres">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section ">
+    <div class="container">
+      <img class="ll" src="{{ axeFlechesPicture | url }}" alt="image axes et dynamiques Des Hommes et des Arbres">
+      <div class="columns my-5 ">
+        <div class="column is-8 is-offset-2">
+          <h2 class="title is-size-3 has-text-centered">{{ laureatTitle}}</h2>
+          <div class="content">{{ laureatContent | markdownify | safe }}</div>
+        </div>
+      </div>
+      <img class="ll" src="{{ cartePicture | url }}" alt="carte du territoire Des Hommes et des Arbres">
+    </div>
+  </section>
+
+  <section class="section ">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <h2 class="title is-size-3 has-text-centered">{{ nosActionsTitle }}</h2>
+          <div class="content">{{ nosActionsContent | markdownify | safe }}</div>
+          <a class="button is-secondary is-pulled-right" href="{{ 'actions' | url }}">
+            Voir toutes les Actions
+            <img class="ml-3" src="{{ '/images/arrow-right.svg' | url }}" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+
+
+

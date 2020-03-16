@@ -1,0 +1,9 @@
+node_modules
+_site/
+src/scss/*.css
+src/scss/*.map
+env.sh
+.env
+.env.prod
+.env.dev
+.sass-cache

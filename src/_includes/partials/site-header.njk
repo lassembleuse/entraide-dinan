@@ -1,0 +1,21 @@
+{# <header class="header"> #}
+  <nav class="navbar is-primary">
+    <div class="container">
+      <div class="navbar-brand brand-title">
+        <a class="navbar-item" href="{{ '/' | url }}">
+          <img class="" src="{{ site.menuLogoPath | url }}" alt="Entraide Dinan Coronavirus">
+        </a>
+        <div class="navbar-burger" data-target="navbar-menu">
+          Menu
+        </div>
+      </div>
+      <div id="navbar-menu" class="navbar-menu">
+        <div class="navbar-end">
+          {%- for link in collections.headerLink -%}
+            <a class="navbar-item {% if page.url == link.url %} is-active {% endif %}" href="{{ link.url | url }}">{{ link.data.title }}</a>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </nav>
+{# </header> #}

@@ -1,0 +1,17 @@
+<footer class="footer has-background-primary">
+  <div class="section">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class="column is-5 is-offset-1">
+          <p>Code source et données : <a href="https://www.github.com">Github</a></p> 
+        </div>
+        {# <div class="column is-5">
+          <h5 class="title is-size-5">Menu</h5>
+          {%- for link in collections.footerLink -%}
+              <a class="navbar-item {% if page.url == link.url %} active {% endif %}" href="{{ link.url | url }}">{{ link.data.title }}</a>
+            {%- endfor -%}
+        </div> #}
+      </div>
+    </div>
+  </div>
+</footer>
