@@ -1,0 +1,27 @@
+name: deploy on gh-pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@master
+      # with:
+      #   submodules: true
+
+    - name: Build Eleventy
+      uses: TartanLlama/actions-eleventy@v1.1
+      with:
+        install_dependencies: true
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        publish_dir: ./_site
+        publish_branch: gh-pages
+        # cname: www.vigiliantes.fr
