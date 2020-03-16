@@ -17,6 +17,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "bulma": "^0.8.0",
-    "csv-parser": "^2.3.2"
+    "csv-parser": "^2.3.2",
+    "markdown-it": "^10.0.0"
   }
 }
