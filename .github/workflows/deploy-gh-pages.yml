@@ -14,9 +14,9 @@ jobs:
       #   submodules: true
 
     - name: Build Eleventy
-      uses: TartanLlama/actions-eleventy@v1.1
-      # with:
-      #   install_dependencies: true
+      uses: guahanweb/actions/node-app@master
+      with:
+        args: "run build"
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
