@@ -7,3 +7,5 @@ env.sh
 .env.prod
 .env.dev
 .sass-cache
+gh-pages
+gh-pages.pub

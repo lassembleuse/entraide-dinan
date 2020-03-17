@@ -15,10 +15,10 @@ jobs:
 
     - name: Build
       uses: actions/setup-node@v1
-      with:
-        args: "run build"
+      # with:
+      #   args: "run build"
     - run: npm install
-    - run: npm build
+    - run: npm run build
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
