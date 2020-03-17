@@ -13,10 +13,12 @@ jobs:
       # with:
       #   submodules: true
 
-    - name: Build Eleventy
-      uses: guahanweb/actions/node-app@master
+    - name: Build
+      uses: actions/setup-node@v1
       with:
         args: "run build"
+    - run: npm install
+    - run: npm build
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
