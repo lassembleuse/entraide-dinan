@@ -23,7 +23,8 @@ module.exports = function(eleventyConfig) {
 
   // Passthrough copy ===========================
   eleventyConfig
-    .addPassthroughCopy({ "src/assets/fonts": "fonts" });
+    .addPassthroughCopy({ "src/assets/fonts": "fonts" })
+    .addPassthroughCopy({ "src/assets/images": "images" });
 
   // override default config
   return {

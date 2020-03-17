@@ -1,5 +1,7 @@
 {
   "title": "Entraide Covid Dinan",
   "description": "Favoriser l'entraide sur le territoire de Dinan au temps du coronavirus",
-  "url": "https://dhda.gitlab.io/site/"
+  "url": "https://entraide-dinan.lassembleuse.fr",
+  "faviconPath": "/images/favicon.png",
+  "seoDefaultPicture": "/images/DefaultPic.png"
 }
