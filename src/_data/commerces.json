@@ -1,11 +1,20 @@
 [
   {
     "type": "Restaurant",
-    "nom": "Le 19",
+    "nom": "Le D",
     "codePostal": "22100",
     "ville": "Dinan",
-    "description": "- Drive crèpes et galettes\n- Autres plats à la livraison (dhaal de lentilles corail, de la lasagne de poisson et un cochon en tendresse...)\n- Pour les commandes, voici le numéro : 0951051054",
+    "description": "- Drive crèpes et galettes\r\n- Autres plats à la livraison (dhaal de lentilles corail, de la lasagne de poisson et un cochon en tendresse...)\r\n- Pour les commandes, voici le numéro : 0951051054",
     "siteWeb": "",
     "facebook": "https://www.facebook.com/profile.php?id=100015999465308"
+  },
+  {
+    "type": "Producteur",
+    "nom": "Ferme de Locria",
+    "codePostal": "22270",
+    "ville": "Mégrit",
+    "description": "Les livraisons à domicile de produits laitiers :\r\nyaourts en 50p g ou 1 kg nature.\r\nLait cru entier en litre\r\nFromage frais de vache\r\nFromage frais de chèvre\r\nPicotou (fromage de chèvre demi sec cendré).\r\nPains :\r\nFarine ancienne t80 ou t 110 au levain . Se conserve bien toute la semaine.\r\nNature en 500 g\r\nNature en kg\r\nPain algérien levain et levure.\r\nLivraison vendredi et samedi après midi. Jugon les lacs, plestan,\r\nMegrit, languedias, trebedan, la landec, plelan le petit , broons, tremeur\r\nCommandes en mp ou au 06 33 48 52 21 sms. ",
+    "siteWeb": "",
+    "facebook": "https://www.facebook.com/Ferme-de-Locria-774375749241773"
   }
 ]
