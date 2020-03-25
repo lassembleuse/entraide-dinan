@@ -21,6 +21,10 @@ module.exports = function(eleventyConfig) {
     md.render(markdownString)
   );
 
+  eleventyConfig.addFilter("limit", function(arr, limit) {
+    return arr.slice(0, limit);
+  });
+
   // Passthrough copy ===========================
   eleventyConfig
     .addPassthroughCopy({ "src/assets/fonts": "fonts" })

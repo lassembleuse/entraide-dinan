@@ -16,5 +16,32 @@
     "description": "Les livraisons à domicile de produits laitiers :\r\nyaourts en 50p g ou 1 kg nature.\r\nLait cru entier en litre\r\nFromage frais de vache\r\nFromage frais de chèvre\r\nPicotou (fromage de chèvre demi sec cendré).\r\nPains :\r\nFarine ancienne t80 ou t 110 au levain . Se conserve bien toute la semaine.\r\nNature en 500 g\r\nNature en kg\r\nPain algérien levain et levure.\r\nLivraison vendredi et samedi après midi. Jugon les lacs, plestan,\r\nMegrit, languedias, trebedan, la landec, plelan le petit , broons, tremeur\r\nCommandes en mp ou au 06 33 48 52 21 sms. ",
     "siteWeb": "",
     "facebook": "https://www.facebook.com/Ferme-de-Locria-774375749241773"
+  },
+  {
+    "type": "Producteur",
+    "nom": "Les jardins de la Fontaine",
+    "codePostal": "22980",
+    "ville": "La Landec",
+    "description": "Les jardins de la Fontaine, 17 le bourg 22980 La Landec est ouvert tous les matins, il vous propose un large choix de fruits et légumes bio de saison.",
+    "siteWeb": "http://lavilleheleuc.com/jardins-de-la-fontaine/",
+    "facebook": ""
+  },
+  {
+    "type": "Producteur",
+    "nom": "La ferme en direct",
+    "codePostal": "22630",
+    "ville": "Les Champs-Géraux",
+    "description": "Collectif de producteurs autour de Dinan (légumes, viande, miel, produits laitiers, confitures, fruits, oeufs...)\r\n\r\nLivraisons sur  points relais parking ou à domicile sont mis en place :\r\n\r\nVous choisissez le point relais parking qui vous arrange (un créneau horaire est proposé) ou Livraison à DOMICILE*: nous vous proposons ensuite selon les commandes et la tournée de venir au plus proche de chez vous\r\n* gratuit à partir de 50€ de commandes tous produits confondus\r\n\r\nVous  commandez\r\n\r\n Nous vous confirmons une heure plus précise de rendez vous sur le parking la veille\r\n\r\nIMPORTANT: renseignez bien votre adresse et téléphone sur le site\r\n\r\n \r\n\r\nA la distribution : vous ouvrez votre coffre, nous chargeons votre colis.\r\nà la Maison nous déposons la commande à votre porte \r\n\r\nLe paiement s’effectue en ligne après livraison à la réception des factures \r\n\r\n\r\nEn raison du nombre important de commandes merci d'anticiper au maximum les commandes... désormais clôture le mardi soir.",
+    "siteWeb": "https://www.lafermeendirect.fr/",
+    "facebook": ""
+  },
+  {
+    "type": "Producteur",
+    "nom": "Ferme de la Paumerais",
+    "codePostal": "22490",
+    "ville": "Pleslin-Trigavou",
+    "description": "Service de livraison à domicile \r\n- Au détail ou par colis /\r\n- Livraison sous 24h\r\n- conditionnement sous vide\r\n\r\nSur un rayon de 20km au tour de notre exploitation\r\n\r\nPaiement par CB uniquement\r\n\r\nCommande par message : jocelyn.heuze@wanadoo.fr",
+    "siteWeb": "",
+    "facebook": "https://www.facebook.com/Fermedelapaumerais/"
   }
 ]

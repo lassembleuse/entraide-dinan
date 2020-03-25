@@ -6,7 +6,13 @@ tags:
 headerOrder: 3
 ---
 
-Quelques ressources en ligne complémentaires à cette initiative :
+Quelques ressources en ligne complémentaires à cette initiative.
+
+## Appels et ressources locales
+
+- [Appel des hôpitaux et cliniques du territoire d’Emeraude](http://www.le-cepr.com/appel-des-hopitaux-et-cliniques-du-territoire-demeraude/)
+
+## Appels et ressources nationales
 
 - [Cartographie Covid entraide France](https://covidentraide.gogocarto.fr/annuaire?fbclid=IwAR0ZmiOuZZM-DsGLi6PImOfrq5lCvNxxn68_bn7vuAjLMu54iPRwcpt1Mdk#/fiche/Bretagne/3/@47.72,-2.19,7z?cat=all)
 - [En première ligne](https://enpremiereligne.fr/) : proposer de l'aide aux professionnels en première ligne de l'épidémie (ou en demander si vous en faites partie)

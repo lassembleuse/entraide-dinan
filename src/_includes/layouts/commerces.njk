@@ -22,7 +22,7 @@ layout: "layouts/base.njk"
   <section class="section py-1">
     <div class="container">
       <div class="columns is-multiline">
-        {%- for commerce in commerces -%}
+        {%- for commerce in commerces | reverse -%}
           <div class="column is-6">
             {% include 'partials/commerce-card.njk' %}
           </div>
