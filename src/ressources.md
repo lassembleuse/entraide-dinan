@@ -11,6 +11,8 @@ Quelques ressources en ligne complémentaires à cette initiative.
 ## Appels et ressources locales
 
 - [Appel des hôpitaux et cliniques du territoire d’Emeraude](http://www.le-cepr.com/appel-des-hopitaux-et-cliniques-du-territoire-demeraude/)
+- [Agendaou - Vente directe producteurs](https://www.agendaou.fr/les-produits-en-vente-direct-185627.html)
+
 
 ## Appels et ressources nationales
 
@@ -20,3 +22,4 @@ Quelques ressources en ligne complémentaires à cette initiative.
 - [Organisé et confiné](https://codimd.co.tools/s/k-lDYy-wW?fbclid=IwAR2IUkDRVCrZ2IbYOeDvUzuSybec27XXzO5U5Xfz8wERlDYMNrIZiuXJRak#) : fichier avec plein de ressources pour mieux vivre le confinement (notamment belle liste de fils de discussion telegram)
 - [Comment aider](https://commentaider.fr/) : liste des associations de soutien aux plus précaires ayant besoin d'aide en France, et comment les soutenir
 - [Solidarité numérique](https://solidarite-numerique.fr/) : Pendant le #confinement, mettez vos compétences à disposition des Français pour les aider à réaliser leurs démarches du quotidien en ligne
+- [Ca reste ouvert](https://www.caresteouvert.fr/@48.454467,-2.050053,15.71) : cartographie des commerces qui restent ouverts pendant le confinement
