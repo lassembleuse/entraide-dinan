@@ -1,6 +1,7 @@
 [
   {
     "type": "Restaurant",
+    "typeIcon": "fork-and-knife",
     "nom": "Le 19",
     "codePostal": "22100",
     "ville": "Dinan",
@@ -10,6 +11,7 @@
   },
   {
     "type": "Producteur",
+    "typeIcon": "food-basket",
     "nom": "Ferme de Locria",
     "codePostal": "22270",
     "ville": "Mégrit",
@@ -19,6 +21,7 @@
   },
   {
     "type": "Producteur",
+    "typeIcon": "food-basket",
     "nom": "Les jardins de la Fontaine",
     "codePostal": "22980",
     "ville": "La Landec",
@@ -28,6 +31,7 @@
   },
   {
     "type": "Producteur",
+    "typeIcon": "food-basket",
     "nom": "La ferme en direct",
     "codePostal": "22630",
     "ville": "Les Champs-Géraux",
@@ -37,6 +41,7 @@
   },
   {
     "type": "Producteur",
+    "typeIcon": "food-basket",
     "nom": "Ferme de la Paumerais",
     "codePostal": "22490",
     "ville": "Pleslin-Trigavou",
@@ -46,6 +51,7 @@
   },
   {
     "type": "Producteur",
+    "typeIcon": "food-basket",
     "nom": "Mr Hinard, maraîcher",
     "codePostal": "22630",
     "ville": "Evran",

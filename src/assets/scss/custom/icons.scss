@@ -11,13 +11,14 @@
   font-family: "IcoFont";
   font-weight: normal;
   font-style: "Regular";
-  src: url("../fonts/icofont.woff2") format("woff2"),
-  url("../fonts/icofont.woff") format("woff");
+  src: url("./fonts/icofont.woff2") format("woff2"),
+  url("./fonts/icofont.woff") format("woff");
 }
 
 [class^="icofont-"], [class*=" icofont-"]
 {
   font-family: 'IcoFont' !important;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -44,6 +45,16 @@
 .icofont-location-pin:before
 {
   content: "\ef79";
+}
+
+.icofont-food-basket:before
+{
+  content: "\eb67";
+}
+
+.icofont-fork-and-knife:before
+{
+  content: "\eb69";
 }
 
 .icofont-xs

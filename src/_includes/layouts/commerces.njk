@@ -21,9 +21,9 @@ layout: "layouts/base.njk"
 
   <section class="section py-1">
     <div class="container">
-      <div class="columns is-multiline">
+      <div class="masonry">
         {%- for commerce in commerces | reverse -%}
-          <div class="column is-6">
+          <div class="brick">
             {% include 'partials/commerce-card.njk' %}
           </div>
         {%- endfor -%}

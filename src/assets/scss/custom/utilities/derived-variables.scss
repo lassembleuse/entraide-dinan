@@ -1,5 +1,6 @@
 $primary: $main !default;
 $primary-light: lighten($primary, 5%) !default;
+$primary-lighter: lighten($primary, 55%) !default;
 $primary-dark: darken($primary, 5%) !default;
 $secondary: $red !default;
 $secondary-light: $red-light !default;
@@ -27,6 +28,8 @@ $red-light-invert: findColorInvert($red-light) !default;
 $main-invert: findColorInvert($grey-darker) !default;
 
 $primary-invert: $main-invert !default;
+$primary-light-invert: findColorInvert($primary-light );
+$primary-lighter-invert: findColorInvert($primary-lighter );
 $secondary-invert: $red-invert !default;
 $secondary-light-invert: $red-light-invert !default;
 $info-invert: $cyan-invert !default;
@@ -65,9 +68,13 @@ $size-large: $size-4 !default;
 // Lists and maps
 
 $custom-colors: (
-  "red-light": (
-    $red-light,
-    $red-light-invert
+  "primary-light": (
+    $primary-light,
+    $primary-light-invert
+  ),
+  "primary-lighter": (
+    $primary-lighter,
+    $primary-lighter-invert
   ),
   "secondary": (
     $secondary,
@@ -80,7 +87,8 @@ $custom-colors: (
 );
 
 $custom-shades: (
-  "red-light": $red-light,
+  "primary-light": $primary-light,
+  "primary-lighter": $primary-lighter,
   "secondary": $secondary,
   "secondary-light": $secondary-light
 );

@@ -26,6 +26,7 @@ const getData = new Promise((resolve, reject) => {
 const formatData = function(row) {
   return {
     type: row["Type"],
+    typeIcon: getTypeIcon(row["Type"]),
     nom: row["Nom du commerce"],
     codePostal: row["Code postal"],
     ville: row["Ville"],
@@ -35,6 +36,16 @@ const formatData = function(row) {
     facebook: row["facebook"]
   };
 };
+
+const getTypeIcon = function (type) {
+  if (type == "Restaurant"){
+    return "fork-and-knife";
+  } else if(type == "Producteur"){
+    return "food-basket";
+  } else {
+  return "";
+  }
+}
 
 getData.then(() => {
   const commerces = JSON.stringify(arrayResults, null, 2);
