@@ -10,6 +10,7 @@
     "css-build": "npx sass src/assets/scss/main.scss _site/main.css",
     "css-watch": "npm run css-build --watch",
     "build": "npm run css-build & npm run build-eleventy",
+    "prod-build": "npm run css-build & ELEVENTY_ENV=production npm run build-eleventy",
     "start": "npm run css-watch & npm run serve-eleventy"
   },
   "keywords": [],
