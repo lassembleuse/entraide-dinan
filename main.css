@@ -10,11 +10,10 @@
   font-family: "IcoFont";
   font-weight: normal;
   font-style: "Regular";
-  src: url("./fonts/icofont.woff2") format("woff2"), url("./fonts/icofont.woff") format("woff");
+  src: url("../fonts/icofont.woff2") format("woff2"), url("../fonts/icofont.woff") format("woff");
 }
 [class^=icofont-], [class*=" icofont-"] {
   font-family: "IcoFont" !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -46,6 +45,22 @@
 
 .icofont-fork-and-knife:before {
   content: "";
+}
+
+.icofont-rounded-left:before {
+  content: "";
+}
+
+.icofont-rounded-right:before {
+  content: "";
+}
+
+.icofont-info:before {
+  content: "";
+}
+
+.icofont-question-circle:before {
+  content: "";
 }
 
 .icofont-xs {
