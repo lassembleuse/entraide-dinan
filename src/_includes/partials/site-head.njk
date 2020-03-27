@@ -26,16 +26,7 @@
     {% endif %}
   {% endset %}
 
-  {% set currentImage %}
-    {% if seoImage %}
-      {{ seoImage }}
-    {% elif layout == "layouts/action.njk" %}
-      {{ action.mainPicturePath.normal | actionPicture }}
-    {% else %}
-      {{ site.seoDefaultPicture }}
-    {% endif %}
-  {% endset %}
-  {% set currentImageUrl = baseUrl + currentImage %}
+  {% set currentImageUrl = baseUrl+site.seoDefaultPicture %}
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
