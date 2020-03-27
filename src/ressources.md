@@ -12,6 +12,7 @@ Quelques ressources en ligne complémentaires à cette initiative.
 
 - [Appel des hôpitaux et cliniques du territoire d’Emeraude](http://www.le-cepr.com/appel-des-hopitaux-et-cliniques-du-territoire-demeraude/)
 - [Agendaou - Vente directe producteurs](https://www.agendaou.fr/les-produits-en-vente-direct-185627.html)
+- [Commerces ouverts](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRNu7XykscBs5GF4y8TLKkdLlSTylhumkgCUn0OtilQ9bsr95G4mY5tfADy7_1E5SL-rLOPEvqdgok9/pubhtml) : fichier google calc (excel) des commerces ouverts à Dinan, classés par catégorie, avec leurs horaires d'ouverture
 
 
 ## Appels et ressources nationales
