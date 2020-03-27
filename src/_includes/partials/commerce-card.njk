@@ -3,10 +3,14 @@
     <header class="mb-4">
       <h3 class=" title is-4">{{commerce.nom }}</h3>
       <div class="subtitle meta-subtitle is-6">
-        <p><i class="icofont-location-pin"></i>
-        {{commerce.codePostal}} {{commerce.ville}}</p>
-        <p><i class="icofont-{{commerce.typeIcon}}"></i>
-        {{commerce.type}}</p>
+        <p>
+          <i class="icofont-location-pin"></i>
+          {{commerce.codePostal}} {{commerce.ville}}
+        </p>
+        <p>
+          <i class="icofont-{{commerce.typeIcon}}"></i>
+          {{commerce.type}}
+        </p>
       </div>
     </header>
     <p>{{ commerce.description | markdownify | safe}}

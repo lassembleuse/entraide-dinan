@@ -24,3 +24,7 @@ Quelques ressources en ligne complémentaires à cette initiative.
 - [Comment aider](https://commentaider.fr/) : liste des associations de soutien aux plus précaires ayant besoin d'aide en France, et comment les soutenir
 - [Solidarité numérique](https://solidarite-numerique.fr/) : Pendant le #confinement, mettez vos compétences à disposition des Français pour les aider à réaliser leurs démarches du quotidien en ligne
 - [Ca reste ouvert](https://www.caresteouvert.fr/@48.454467,-2.050053,15.71) : cartographie des commerces qui restent ouverts pendant le confinement
+
+## Trouver des producteurs locaux
+
+- [www.mangeons-local.bzh](https://www.mangeons-local.bzh/)

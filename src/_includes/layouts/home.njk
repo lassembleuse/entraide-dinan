@@ -4,7 +4,7 @@ layout: "layouts/base.njk"
 
 {% block content %}
   {# Header #}
-  <section class="section has-background-white"  >
+  <section class="section"  >
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-8 is-offset-2">
@@ -15,6 +15,25 @@ layout: "layouts/base.njk"
               {{ content | safe }}
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="section has-background-white"  >
+    <div class="container">
+      <div class="has-text-centered">
+        <h2 class="title is-3 mb-4">Des initiatives à relayer ?</h2>
+      </div>
+      <div class="columns is-vcentered">
+        <div class="column is-6 is-offset-2">
+            {# <h2 class="subtitle is-3">- {{ site.baselineLocation }} -</h2> #}
+            <div class="content">
+              <p>Si vous avez des annonces, des initiatives, des propositions en lien avec l'entraide sur le territoire de Dinan agglomération pendant l'épidémie, vous pouvez les diffuser ici.
+            </div>
+        </div>
+        <div class="column is-2">
+          <a class="button is-primary" href="/contribuer">Contribuer</a>
         </div>
       </div>
     </div>
