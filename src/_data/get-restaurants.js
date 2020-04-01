@@ -18,7 +18,7 @@ const getData = new Promise((resolve, reject) => {
       arrayResults.push(formatData(row));
     })
     .on("end", () => {
-      console.log(arrayResults);
+      // console.log(arrayResults);
       resolve(arrayResults);
     });
   });

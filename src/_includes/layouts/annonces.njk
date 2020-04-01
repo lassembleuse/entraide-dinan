@@ -1,0 +1,34 @@
+---
+layout: "layouts/base.njk"
+---
+
+{% block content %}
+
+  <section class="section">
+    <header>
+      <div class="container">
+        <h1 class="title is-1 has-text-centered">{{ title }}</h1>
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <div class="has-text-centered content">
+              {{ content | safe }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <section class="section py-1">
+    <div class="container">
+      <div class="masonry">
+        {%- for annonce in annonces | reverse -%}
+          <div class="brick">
+            {% include 'partials/annonce-card.njk' %}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

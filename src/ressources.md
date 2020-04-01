@@ -24,7 +24,14 @@ Quelques ressources en ligne complémentaires à cette initiative.
 - [Comment aider](https://commentaider.fr/) : liste des associations de soutien aux plus précaires ayant besoin d'aide en France, et comment les soutenir
 - [Solidarité numérique](https://solidarite-numerique.fr/) : Pendant le #confinement, mettez vos compétences à disposition des Français pour les aider à réaliser leurs démarches du quotidien en ligne
 - [Ca reste ouvert](https://www.caresteouvert.fr/@48.454467,-2.050053,15.71) : cartographie des commerces qui restent ouverts pendant le confinement
+- [Riposte créative territoriale - "Apprendre ensemble de la crise"](https://ripostecreativeterritoriale.xyz/?IniTiatives) : répertoire d'initiatives liées à l'épidémie (mobilisation des bibliothèques, cartographies, guides de collectivités...)
 
 ## Trouver des producteurs locaux
 
+- [Carte Producteurs confinés Dinan Rance Emeraude](https://producteursdinan.gogocarto.fr)
 - [www.mangeons-local.bzh](https://www.mangeons-local.bzh/)
+- [bonplanbio.fr](https://bonplanbio.fr)
+- [www.bienvenue-a-la-ferme.com](https://www.bienvenue-a-la-ferme.com/)
+- [Carte Solidarité producteurs locaux](https://www.google.com/maps/d/u/1/viewer?fbclid=IwAR3xSVU9ApmvRcZxBJMOVgIu0gqkUyPTqW-sebY3mwXmYNc6r79UrKeMJqE&ll=48.27243948450031%2C-1.6914258005369902&z=10&mid=1LChbmKeP4pbmKcc-ZQ_zkQ_LY3yiHfZY)
+- [Carte Restaurants et Producteurs de qualité](https://restaurantdequalite.fr/carte-interactive) : regroupe les structures qui proposent vente en ligne, points relais, livraison...
+- [Carte le Marché vert](https://www.google.com/maps/d/u/0/viewer?mid=1Rd5Tu0dbRoM1elal_Rj6o1DkDG5ghkPn&ll=48.25411731004262%2C7.902119159934273&z=6)

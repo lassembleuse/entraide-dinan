@@ -1,0 +1,22 @@
+[
+  {
+    "type": "Masques",
+    "annonceur": "Annick Pierre",
+    "email": "annickpierre47@gmail.com",
+    "titre": "Propose draps blanc pour confection de masque",
+    "description": "A des draps blancs qu'elle propose pour faire des masques. La contacter si intéressée",
+    "ville": "Dinan",
+    "date": "2020-04-01"
+  },
+  {
+    "type": "Alimentation",
+    "annonceur": "Secours Populaire",
+    "email": "Spfdinan@orange.fr ",
+    "titre": "Besoin de denrées alimentaire pour le secours populaire",
+    "description": "Sur notre secteur, la solidarité se développe, nous permettant ainsi d'assurer les distributions alimentaires dans de bonnes conditions, compte tenu de la situation..Nous recevons quotidiennement des offres ponctuelles de bénévolat.Nous avons reçu des masques de la part de particuliers.\n\nDes maraîchers, boulangers, producteurs ( œufs, yaourts...) commerçants, entreprises de transformation alimentaire ( Sobreval ) mettent leurs produits à notre disposition.",
+    "ville": "Dinan",
+    "date": "2020-03-30"
+  }
+]
+
+

@@ -1,0 +1,38 @@
+<div class="card mb-3">
+  <div class="card-content content">
+    <header class="mb-4">
+      <h3 class=" title is-4">{{annonce.titre }}</h3>
+      <div class="subtitle meta-subtitle is-6">
+        <p>
+          <i class="icofont-calendar"></i>
+          {{annonce.date}}
+        </p>
+        <p>
+          <i class="icofont-location-pin"></i>
+          {{annonce.ville}}
+        </p>
+      </div>
+    </header>
+    <p>{{ annonce.description | markdownify | safe}}
+  </div>
+
+  <div class="card-content has-background-primary-lighter">
+    <p class="has-text-weight-bold">Pour en savoir plus : </p>
+    {% if annonce.email %}
+    <div>
+      <i class="icofont-envelope"></i>
+      <a href="mailto:{{annonce.email}}" target="_blank">
+        {{annonce.email}}
+      </a>
+    </div>
+    {% endif %}
+    {% if annonce.facebook %}
+    <div>
+      <i class="icofont-facebook"></i>
+      <a href="{{annonce.facebook}}">
+        facebook
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</div>
