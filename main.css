@@ -63,6 +63,18 @@
   content: "";
 }
 
+.icofont-calendar:before {
+  content: "";
+}
+
+.icofont-envelope:before {
+  content: "";
+}
+
+.icofont-phone:before {
+  content: "";
+}
+
 .icofont-xs {
   font-size: 0.5em;
 }
