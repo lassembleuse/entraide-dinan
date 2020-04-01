@@ -17,7 +17,7 @@
   </div>
 
   <div class="card-content has-background-primary-lighter">
-    <p class="has-text-weight-bold">Pour en savoir plus : </p>
+    <p class="has-text-weight-bold">Prendre contact : </p>
     {% if annonce.email %}
     <div>
       <i class="icofont-envelope"></i>
@@ -26,11 +26,11 @@
       </a>
     </div>
     {% endif %}
-    {% if annonce.facebook %}
+    {% if annonce.phone %}
     <div>
-      <i class="icofont-facebook"></i>
-      <a href="{{annonce.facebook}}">
-        facebook
+      <i class="icofont-phone"></i>
+      <a href="{{annonce.phone}}">
+        phone
       </a>
     </div>
     {% endif %}

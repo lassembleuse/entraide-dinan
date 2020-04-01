@@ -3,7 +3,7 @@ title: Ressources
 layout: layouts/single.njk
 tags:
 - headerLink
-headerOrder: 3
+headerOrder: 4
 ---
 
 Quelques ressources en ligne complémentaires à cette initiative.

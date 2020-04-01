@@ -44,8 +44,33 @@ layout: "layouts/base.njk"
       <div class="columns">
         <div class="column is-8 is-offset-2">
           <div class="has-text-centered">
+            <h2 class="title is-3">Annonces</h2>
+            <p>Les dernières annonces reçues</p>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-multiline">
+        {%- for annonce in annonces | reverse | limit(2)-%}
+          <div class="column is-6">
+            {% include 'partials/annonce-card.njk' %}
+          </div>
+        {%- endfor -%}
+      </div>
+      <div class="has-text-right">
+        <a class="button is-primary" href="/annonces/">Voir toutes les annonces</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section py-5">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <div class="has-text-centered">
             <h2 class="title is-3">Alimentation</h2>
-            <p>Les 2 derniers commerces, producteurs, restaurants proposant des produits locaux et que vous pourriez soutenir.</p>
+            <p class="has-text-weight-bold">ATTENTION ! Une carte a pris le relais de cette rubrique (qui n'est donc plus tenue à jour). <br>Rendez-vous sur <a href="https://producteursdinan.gogocarto.fr">Producteurs confinés Dinan Rance Emeraude</a>.</p>
+            <br>
+            <p>Les 2 derniers commerces proposant des produits locaux que vous pourriez soutenir.</p>
           </div>
         </div>
       </div>

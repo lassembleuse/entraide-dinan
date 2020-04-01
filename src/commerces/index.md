@@ -3,7 +3,7 @@ title: Alimentation
 layout: "layouts/commerces.njk"
 tags:
   - headerLink
-headerOrder: 2
+headerOrder: 3
 ---
 
 Ici, vous trouverez les infos de commerces, restaurants, producteurs, fermes qui peuvent vous fournir des produits issus du territoire.

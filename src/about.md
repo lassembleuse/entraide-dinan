@@ -3,7 +3,7 @@ title: A propos
 layout: layouts/single.njk
 tags:
 - headerLink
-headerOrder: 5
+headerOrder: 6
 ---
 
 Ce site a pour ambition de centraliser et diffuser les actions d'entraide sur le territoire de Dinan (Dinan agglomération) durant l'épidémie de coronavirus (covid-19).
